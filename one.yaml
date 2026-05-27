@@ -5,4 +5,8 @@
       user: 
         name: raman
         state: present 
+    - name: add to group
+      group:
+        name: dev
+        state: present 
 ...
